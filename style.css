@@ -408,5 +408,36 @@ footer>div{
   .hero-section-left-bottom{
     margin-top:10px  !important;
   }
-  
+  .course-section-boxes>div:last-child{
+    display: none !important;
+  }
+  .Companies-section-images {
+    width: 524px;
+    height: 290px;
+    /* background-color: blanchedalmond; */ 
+    box-sizing: border-box !important; 
+    margin: 0px !important;
+  }
+  .Companies-section-images>.container{
+    width:90% !important;
+  }
+  .Companies-section-images>.container>div:first-child,
+  .Companies-section-images>.container>div:last-child{
+    display:none
+  }
+  .grid-container{
+    width:500px;
+    height:500px;
+  }
+  .grid-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-container>div:last-child{
+    display: none !important;
+  }
+  footer>div{
+    position: fixed;
+    bottom:0px;
+  }
 }
